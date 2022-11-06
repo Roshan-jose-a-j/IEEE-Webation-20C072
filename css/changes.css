@@ -1,0 +1,69 @@
+
+.card-images{
+  width: 300px;
+  height: 400px;
+  position: relative;
+
+}
+.img-blur:hover{
+  filter: brightness(50%);
+ -webkit-filter: brightness(50%);
+}
+.arrival-images{
+  padding-top: 50px;
+  width: 300px;
+  height: 400px;
+
+}
+.content-card{
+  padding-top: 200px !important;
+  color: #fff;
+  font-weight: 900;
+  font-family:  'Ubuntu', sans-serif;
+
+}
+.pricecontent-card{
+    visibility: hidden;
+    padding-top: 210px !important;
+    color: #fff;
+    font-weight: 900;
+    font-family:  'Ubuntu', sans-serif;
+}
+
+
+
+
+.arrival-spacing{
+  padding: 50px 0 50px 30px;
+}
+.testimonial-image{
+  width: 80%;
+}
+
+.latest-arrivals{
+  height:180px;
+}
+#arrivals{
+  position: relative;
+}
+.card-spacing{
+  padding-left: 90px;
+}
+
+.pricing-text{
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 3%;
+}
+.do-not-bright{
+  position: absolute;
+  bottom:100px;
+}
+
+@media (max-width: 1028px){
+  .title-image{
+    width: 100%;
+  }
+  
+}
